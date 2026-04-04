@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"></stop>
+      <stop offset="100%" stop-color="#C9922A"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Rings -->
+  <circle cx="80" cy="80" r="78" fill="none" stroke="url(#g2)" stroke-width="2"></circle>
+  <circle cx="80" cy="80" r="68" fill="none" stroke="url(#g2)" stroke-width="0.6" opacity="0.35"></circle>
+  <circle cx="80" cy="80" r="58" fill="none" stroke="url(#g2)" stroke-width="0.4" opacity="0.15"></circle>
+
+  <!-- Pot Body -->
+  <ellipse cx="80" cy="88" rx="28" ry="20" fill="#1A0800"></ellipse>
+  <ellipse cx="80" cy="88" rx="28" ry="20" fill="none" stroke="url(#g2)" stroke-width="1.5"></ellipse>
+
+  <!-- Handles -->
+  <path d="M52,82 Q44,82 44,88 Q44,94 52,94" fill="none" stroke="url(#g2)" stroke-width="2" stroke-linecap="round"></path>
+  <path d="M108,82 Q116,82 116,88 Q116,94 108,94" fill="none" stroke="url(#g2)" stroke-width="2" stroke-linecap="round"></path>
+
+  <!-- Lid -->
+  <ellipse cx="80" cy="70" rx="28" ry="6" fill="#1A0800" stroke="url(#g2)" stroke-width="1.5"></ellipse>
+  <ellipse cx="80" cy="64.5" rx="8" ry="4" fill="url(#g2)"></ellipse>
+  <ellipse cx="80" cy="63" rx="5" ry="2.5" fill="#F5E6C0" opacity="0.7"></ellipse>
+
+  <!-- Steam -->
+  <path d="M66,57 Q63,52 66,47" fill="none" stroke="url(#g2)" stroke-width="1.2" stroke-linecap="round" opacity="0.55"></path>
+  <path d="M80,56 Q77,51 80,46" fill="none" stroke="url(#g2)" stroke-width="1.4" stroke-linecap="round" opacity="0.65"></path>
+  <path d="M94,57 Q91,52 94,47" fill="none" stroke="url(#g2)" stroke-width="1.2" stroke-linecap="round" opacity="0.55"></path>
+
+  <!-- Top Text Path -->
+  <path id="ct" d="M 18,80 A 62,62 0 0,1 142,80" fill="none"></path>
+  <text font-family="Noto Sans Tamil, Arial Unicode MS, sans-serif" font-size="12" font-weight="700" fill="url(#g2)">
+    <textPath href="#ct" startOffset="8%">நிக்காஹ் பிரியாணி</textPath>
+  </text>
+
+  <!-- Bottom Text Path -->
+  <path id="cb" d="M 20,86 A 62,62 0 0,0 140,86" fill="none"></path>
+  <text font-family="Georgia, serif" font-size="8" fill="#C9922A" letter-spacing="2" opacity="0.6">
+    <textPath href="#cb" startOffset="14%">NIKKAH  BIRIYANI</textPath>
+  </text>
+
+  <!-- Stars -->
+  <polygon points="80,6 81.8,10 86,10 82.8,12.5 84,16.5 80,14 76,16.5 77.2,12.5 74,10 78.2,10" fill="url(#g2)" opacity="0.7"></polygon>
+  <polygon points="80,154 81.8,150 86,150 82.8,147.5 84,143.5 80,146 76,143.5 77.2,147.5 74,150 78.2,150" fill="url(#g2)" opacity="0.7"></polygon>
+
+</svg>
